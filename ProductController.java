@@ -46,7 +46,7 @@ public class ProductController {
 	@Autowired
 	private Supplier supplier;
 	
-	private String path = "resources/img/";
+	private String path = "D:/p3/Medicines/src/main/resources/img";
 	@Transient
 	private MultipartFile file;
 	
@@ -77,10 +77,9 @@ public class ProductController {
 		product.setProductID(product.getProductID());
 		productDao.saveOrUpdate(product);
 		
-		
-		
-	System.out.println("file upload");
-		FileUtil.upload(path, file , product.getProductID()+".jpg");
+	
+
+		FileUtil.upload( path, file , product.getProductID()+".jpg");
 		log.debug("End of the method: addProduct");
 		model.addAttribute("isAdminClickedProducts","true");
 		model.addAttribute("productAdded", true);
@@ -89,6 +88,8 @@ public class ProductController {
 	return "/home";
 		
 	}
+	
+	
 	@RequestMapping("manageProductRemove/{productID}")
 	public String removeProduct(@PathVariable("productID") String productID, Model model) throws Exception{
 		log.debug("Starting of the method: removeProduct");
@@ -105,7 +106,7 @@ public class ProductController {
 	
 	@RequestMapping("manageProductEdit/{productID}")
 	public String editProduct(@PathVariable("productID") String productID,Model model){
-		//productDAO.saveOrUpdate(product);
+		productDao.saveOrUpdate(product);
 		log.debug("Starting of the method: editProduct");
 		product = productDao.get(productID);
 		model.addAttribute("product", product);

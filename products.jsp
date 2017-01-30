@@ -12,7 +12,7 @@
 <body>
 	<h1>Add a Product</h1>
 
-	<c:url var="addAction" value="/manageProductAdd"></c:url>
+	<c:url var="addAction" value="manageProductAdd"></c:url>
 
 	<form:form action="${addAction}" commandName="product"  method="post" >
 	
