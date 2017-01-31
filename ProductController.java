@@ -24,8 +24,10 @@ import com.niit.domainobject.Product;
 import com.niit.domainobject.Supplier;
 import com.niit.util.FileUtil;
 
+
+
 @Controller
-public class ProductController {
+public class ProductController extends FileUtil {
 	private static Logger log = LoggerFactory.getLogger(ProductController.class);
 	
 	@Autowired
@@ -46,9 +48,11 @@ public class ProductController {
 	@Autowired
 	private Supplier supplier;
 	
-	private String path = "D:/p3/Medicines/src/main/resources/img";
-	@Transient
-	private MultipartFile file;
+	private String path = "D:\\p3\\Medicines\\src\\main\\resources\\img";
+	
+	
+	
+	
 	
 	
 	@RequestMapping(value="/manageAllProducts",  method = RequestMethod.GET)
@@ -85,7 +89,7 @@ public class ProductController {
 		model.addAttribute("productAdded", true);
 		model.addAttribute("productList",this.productDao.list());
 		model.addAttribute("product", new Product());
-	return "/home";
+		return "/home";
 		
 	}
 	
