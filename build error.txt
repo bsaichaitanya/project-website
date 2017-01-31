@@ -1,0 +1,395 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Medicines Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Medicines ---
+[INFO] Deleting D:\p3\Medicines\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Medicines ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Medicines ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 8 source files to D:\p3\Medicines\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[13,20] cannot find symbol
+  symbol:   class CategoryDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[14,29] cannot find symbol
+  symbol:   class Category
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[21,25] cannot find symbol
+  symbol:   class CategoryDao
+  location: class com.niit.controller.CategoryController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[24,25] cannot find symbol
+  symbol:   class Category
+  location: class com.niit.controller.CategoryController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[38,71] cannot find symbol
+  symbol:   class Category
+  location: class com.niit.controller.CategoryController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[17,20] cannot find symbol
+  symbol:   class CartDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[19,29] cannot find symbol
+  symbol:   class Cart
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[20,29] cannot find symbol
+  symbol:   class Product
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[26,17] cannot find symbol
+  symbol:   class CartDao
+  location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[29,17] cannot find symbol
+  symbol:   class Cart
+  location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[13,20] cannot find symbol
+  symbol:   class SupplierDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[14,29] cannot find symbol
+  symbol:   class Supplier
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[20,17] cannot find symbol
+  symbol:   class SupplierDao
+  location: class com.niit.controller.SupplierController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[23,17] cannot find symbol
+  symbol:   class Supplier
+  location: class com.niit.controller.SupplierController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[36,63] cannot find symbol
+  symbol:   class Supplier
+  location: class com.niit.controller.SupplierController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[14,20] cannot find symbol
+  symbol:   class CategoryDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[15,20] cannot find symbol
+  symbol:   class SupplierDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[16,29] cannot find symbol
+  symbol:   class Category
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[17,29] cannot find symbol
+  symbol:   class Product
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[18,29] cannot find symbol
+  symbol:   class Supplier
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[28,17] cannot find symbol
+  symbol:   class CategoryDao
+  location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[31,17] cannot find symbol
+  symbol:   class Category
+  location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[34,17] cannot find symbol
+  symbol:   class SupplierDao
+  location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[37,17] cannot find symbol
+  symbol:   class Supplier
+  location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[40,17] cannot find symbol
+  symbol:   class Product
+  location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[90,79] cannot find symbol
+  symbol:   class Product
+  location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[19,20] cannot find symbol
+  symbol:   class CategoryDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[21,20] cannot find symbol
+  symbol:   class SupplierDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[22,29] cannot find symbol
+  symbol:   class Category
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[23,29] cannot find symbol
+  symbol:   class Product
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[24,29] cannot find symbol
+  symbol:   class Supplier
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[37,17] cannot find symbol
+  symbol:   class Product
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[40,17] cannot find symbol
+  symbol:   class CategoryDao
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[43,17] cannot find symbol
+  symbol:   class Category
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[46,17] cannot find symbol
+  symbol:   class SupplierDao
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[49,17] cannot find symbol
+  symbol:   class Supplier
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[69,61] cannot find symbol
+  symbol:   class Product
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[21,20] cannot find symbol
+  symbol:   class CategoryDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[22,20] cannot find symbol
+  symbol:   class SupplierDao
+  location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[24,29] cannot find symbol
+  symbol:   class Category
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[25,29] cannot find symbol
+  symbol:   class Supplier
+  location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[40,17] cannot find symbol
+  symbol:   class CategoryDao
+  location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[43,17] cannot find symbol
+  symbol:   class Category
+  location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[46,17] cannot find symbol
+  symbol:   class SupplierDao
+  location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[49,17] cannot find symbol
+  symbol:   class Supplier
+  location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[40,48] cannot find symbol
+  symbol:   class Cart
+  location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[68,17] cannot find symbol
+  symbol:   class Product
+  location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[68,45] cannot find symbol
+  symbol:   method get(java.lang.String)
+  location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[73,17] cannot find symbol
+  symbol:   class Category
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[74,17] cannot find symbol
+  symbol:   class Supplier
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[91,51] cannot find symbol
+  symbol:   class Product
+  location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[100,42] cannot find symbol
+  symbol:   method delete(java.lang.String)
+  location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[115,37] cannot find symbol
+  symbol:   method get(java.lang.String)
+  location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[126,83] cannot find symbol
+  symbol:   method get(java.lang.String)
+  location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[146,32] cannot find symbol
+  symbol:   method saveOrUpdate(com.niit.domainobject.User)
+  location: variable userDao of type com.niit.dao.UserDao
+[INFO] 55 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.289 s
+[INFO] Finished at: 2017-01-31T20:08:36+05:30
+[INFO] Final Memory: 18M/182M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Medicines: Compilation failure: Compilation failure:
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[13,20] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[14,29] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[21,25] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: class com.niit.controller.CategoryController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[24,25] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: class com.niit.controller.CategoryController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CategoryController.java:[38,71] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: class com.niit.controller.CategoryController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[17,20] cannot find symbol
+[ERROR] symbol:   class CartDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[19,29] cannot find symbol
+[ERROR] symbol:   class Cart
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[20,29] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[26,17] cannot find symbol
+[ERROR] symbol:   class CartDao
+[ERROR] location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[29,17] cannot find symbol
+[ERROR] symbol:   class Cart
+[ERROR] location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[13,20] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[14,29] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[20,17] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: class com.niit.controller.SupplierController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[23,17] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: class com.niit.controller.SupplierController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/SupplierController.java:[36,63] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: class com.niit.controller.SupplierController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[14,20] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[15,20] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[16,29] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[17,29] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[18,29] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[28,17] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[31,17] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[34,17] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[37,17] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[40,17] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/HomeController1.java:[90,79] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: class com.niit.controller.HomeController1
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[19,20] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[21,20] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[22,29] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[23,29] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[24,29] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[37,17] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[40,17] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[43,17] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[46,17] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[49,17] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[69,61] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[21,20] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[22,20] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: package com.niit.dao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[24,29] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[25,29] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: package com.niit.domainobject
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[40,17] cannot find symbol
+[ERROR] symbol:   class CategoryDao
+[ERROR] location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[43,17] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[46,17] cannot find symbol
+[ERROR] symbol:   class SupplierDao
+[ERROR] location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[49,17] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: class com.niit.controller.Usercontroller
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[40,48] cannot find symbol
+[ERROR] symbol:   class Cart
+[ERROR] location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[68,17] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: class com.niit.controller.CartController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/CartController.java:[68,45] cannot find symbol
+[ERROR] symbol:   method get(java.lang.String)
+[ERROR] location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[73,17] cannot find symbol
+[ERROR] symbol:   class Category
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[74,17] cannot find symbol
+[ERROR] symbol:   class Supplier
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[91,51] cannot find symbol
+[ERROR] symbol:   class Product
+[ERROR] location: class com.niit.controller.ProductController
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[100,42] cannot find symbol
+[ERROR] symbol:   method delete(java.lang.String)
+[ERROR] location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[115,37] cannot find symbol
+[ERROR] symbol:   method get(java.lang.String)
+[ERROR] location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/ProductController.java:[126,83] cannot find symbol
+[ERROR] symbol:   method get(java.lang.String)
+[ERROR] location: variable productDao of type com.niit.dao.ProductDao
+[ERROR] /D:/p3/Medicines/src/main/java/com/niit/controller/Usercontroller.java:[146,32] cannot find symbol
+[ERROR] symbol:   method saveOrUpdate(com.niit.domainobject.User)
+[ERROR] location: variable userDao of type com.niit.dao.UserDao
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Medicines: Compilation failure
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+	at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute(AbstractCompilerMojo.java:858)
+	at org.apache.maven.plugin.compiler.CompilerMojo.execute(CompilerMojo.java:129)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	... 20 more
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
